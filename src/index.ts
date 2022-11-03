@@ -1,9 +1,9 @@
-import express from 'express'
+import express, { Express } from 'express'
 import pingRoutes from './routes/v1/ping.routes'
 import * as dotenv from 'dotenv'
 dotenv.config()
 
-const app = express()
+const app: Express = express()
 app.use(express.json())
 
 const PORT = process.env.PORT ?? 3000
