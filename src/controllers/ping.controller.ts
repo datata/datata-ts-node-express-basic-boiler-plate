@@ -10,5 +10,5 @@ export const ping = (_req: Request, res: Response): Response<JSON> => {
     message: 'pong'
   }
 
-  return res.status(200).json(result);
+  return res.status(200).json(result)
 }
