@@ -3,4 +3,8 @@
 
 ###
 GET {{URL}}:{{PORT}}/api/v1/ping
+
+{{
+  test.status(200);
+}}
 ###
