@@ -1,5 +1,5 @@
 import express from 'express';
-import { router as pingRoutes } from './routes/v1/ping.routes'
+import pingRoutes from './routes/v1/ping.routes'
 
 const app = express();
 app.use(express.json());

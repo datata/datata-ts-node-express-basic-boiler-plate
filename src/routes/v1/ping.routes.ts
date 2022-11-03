@@ -5,4 +5,4 @@ const router = express.Router();
 
 router.get('/v1/ping', ping);
 
-export { router };
+export default router;
