@@ -8,7 +8,8 @@
     "start": "node build/index.js",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx ts-standard"
+    "lint": "npx ts-standard",
+    "fix-lint": "npx ts-standard --fix"
   },
   "author": "datata",
   "license": "ISC",
