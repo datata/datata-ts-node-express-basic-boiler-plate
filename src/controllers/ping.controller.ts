@@ -1,10 +1,10 @@
-import { Request, Response } from 'express';
+import { Request, Response } from 'express'
 
 export const ping = (_req: Request, res: Response) => {
-    return res.status(200).json(
-        {
-            success: true,
-            message: "pong"
-        }
-    )
+  return res.status(200).json(
+    {
+      success: true,
+      message: 'pong'
+    }
+  )
 }
