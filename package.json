@@ -9,7 +9,8 @@
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx ts-standard",
-    "fix-lint": "npx ts-standard --fix"
+    "fix-lint": "npx ts-standard --fix",
+    "build": "tsc"
   },
   "author": "datata",
   "license": "ISC",
