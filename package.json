@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "ts-node-dev ./src/index.ts",
-    "start": "node ./build/index.js",
+    "start": "node ./src/build/index.js",
     "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "npx ts-standard",
